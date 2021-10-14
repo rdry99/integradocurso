@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 112, 184);
+}
+ 
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+   padding: 1px 80px 1px 0px;
+   list-style: none;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   background-color: darkturquoise;
+}
+#imgPrincipa{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+
+footer{
+display: flex;
+justify-content: space-around;
+background-color:darkturquoise;
+margin: 0px;
+padding: 1%;
+}
+.pclientes{
+    font-weight: 900;
+    font-size: xx-large;
+}
+.comentarios{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.card{
+background-color: darkturquoise;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+margin-left: 50px;
+
+}
+.card-img-top{
+width: 90%;
+margin: 10px;
+}
+h3{
+    margin: 10px;
+}
+.card-text{
+    margin: 10px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 1%;
+}
