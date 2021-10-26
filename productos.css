@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(255, 112, 184) ;
+}
+nav{
+    display: flex ; 
+    justify-content: flex-end;
+    padding: 1px 80px 1px 0;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: darkturquoise;
+}
+
+.prducto{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    border-color: black;
+    background-color: aqua;
+    padding: 10px;
+    border-style: double;
+    margin: 1rem;
+}
+
+.tortas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    border-color: black;
+    background-color: aqua;
+    padding: 10px;
+    border-style: double;
+    margin: 1rem;
+}
+.tren{
+    padding-right: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    background-color: darkturquoise;
+    margin: 0;
+    padding: 1px;
+}

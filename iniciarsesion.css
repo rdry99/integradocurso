@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 112, 184) ;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+   padding: 1px 80px 1px 0px;
+   list-style: none;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   background-color: darkturquoise;
+}
+section{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-top: 80px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-evenly;
+    height: 35%;
+    margin: 2px 0px;
+}
+input{
+    padding: 5px;
+    margin: 6px;
+}
+
+button{
+    margin:5px ;
+    background-color: darkturquoise;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkturquoise;
+    margin: 0px;
+    padding: 1%;
+    }

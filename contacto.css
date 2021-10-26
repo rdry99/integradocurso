@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 112, 184)  ;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+   padding: 1px 80px 1px 0px;
+   list-style: none;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   background-color: darkturquoise;
+}
+a{
+    list-style-type: none;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+    padding-left: 50px;
+}
+h1{
+    text-align: center;
+}
+.presentacion{
+    width: 50%;
+    height: 50%;
+    padding-right: 50px;
+    border-color: bisque;
+    border-style: dotted;
+    padding: 2%;
+    background-color: #2222222e;
+    margin: 10px;
+}
+.gisell{
+    padding: 0% 25% ;
+
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 1%;
+}
+
+ footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkturquoise;
+    margin: 0px;
+    padding: 1%;
+    }
